@@ -162,7 +162,7 @@ export default function AppSidebar() {
                 <div className="flex items-center justify-between mt-0.5">
                    <p className="text-xs text-muted-foreground truncate capitalize">{profile?.role || mockUser.role}</p>
                    {profile?.role !== 'admin' && (
-                     <div className="flex items-center gap-2 text-[10px] text-muted-foreground mr-2">
+                     <div className="flex items-center gap-2 text-xs text-muted-foreground mr-2">
                         <span title="Total achievements">{stats.total} total</span>
                         <span className="text-success" title="Verified achievements">{stats.verified} ✓</span>
                      </div>
